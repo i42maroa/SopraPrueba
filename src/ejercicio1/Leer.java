@@ -2,6 +2,7 @@ package ejercicio1;
 
 
 /**
+ * Ejercicio1
  * 
  * @param Hay que introducir cómo argumento un número entero 
  * @author Antonio Marín Rodríguez

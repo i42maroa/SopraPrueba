@@ -57,7 +57,7 @@ public class Listar {
 		 System.out.println("Listado de personas: " + persona);
 		 System.out.println("Personas mayores de edad: " + personasMayores);
 		 System.out.println("Personas menores de edad: " + (persona.size() - personasMayores));
-		 System.out.println("Porcentaje personas mayores: " + (personasMayores*100 / persona.size()*100 )/100 + "%"); //Lo multipico por 100 ya que int no maneja datos por debajo del 0. y me ahorro así transformarlos a double
+		 System.out.println("Porcentaje personas mayores: " + (personasMayores*100 / persona.size()*100 )/100 + "%"); //Lo multipico por 100 ya que int no maneja datos por debajo del 0. y me ahorro así transformarlos a float
 		 System.out.println("Hombres mayores de edad: " + masculinasMayores);
 		 System.out.println("Mujeres menores de edad: " + femeninasMenores);
 		 System.out.println("Mujeres totales: " + ((personasMayores-masculinasMayores + femeninasMenores)*100 / persona.size()*100 )/100 + "%");
